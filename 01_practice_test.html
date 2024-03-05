@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* text-align: center; */
+            color: black;
+            width: 500px;
+            font-weight: bold;
+        }
+        #wapper {
+            width: 100%;
+            text-align: 300px;
+            margin: 0 auto;
+        }
+
+        header {
+            height: 50px;
+            background: blue;
+        }
+        nav, section {
+            float: left;
+            height: 250px;
+        }
+        nav {
+            background: red;
+            width: 100px;
+        }
+        section {
+            background: green;
+            width: 302px;
+        }
+        aside {
+            float: right;
+            position: relative;
+            top: -250px;
+            height: 250px;
+            background: rgb(241, 241, 220);
+            width: 100px;
+        }
+        footer {
+            height: 25px;
+            background: rgb(141, 37, 161);
+            position: relative;
+            clear: both;
+            top: -250px;
+        }
+        article {
+            width: 90%;
+            height: 27%;
+            margin-left: 4%;
+        }
+        #article1 {
+            background: yellowgreen;
+            margin-top: -5%;
+        }
+        #article2 {
+            background: pink;
+            margin-top: -6%;
+        }
+        #article3 {
+            background: cyan;
+            margin-top: -6%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>페이지 레이아웃 설정</h1>
+    <div id="wapper">
+        <header>
+            <p>header</p>
+        </header>
+        <nav>
+            <p>nav</p>
+        </nav>
+        <section>
+            <p>section</p>
+            <article id="article1">
+                <p>article</p>
+            </article>
+            <article id="article2">
+                <p>article</p>
+            </article>
+            <article id="article3">
+                <p>article</p>
+            </article>
+        </section>
+        <aside>
+            <p>aside</p>
+        </aside>
+        <footer>footer</footer>
+    </div>
+</body>
+
+</html>
